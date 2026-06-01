@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background Ellipse -->
+  <ellipse cx="200" cy="200" rx="200" ry="160" fill="#2C3E50" />
+  
+  <!-- Chat Bubble - Ellipsoid -->
+  <path d="M335 150C335 105 290 60 240 70H160C110 60 65 105 65 150V230C65 275 110 320 160 310H175L220 355V310C290 320 335 275 335 210V150Z" fill="#3498DB" />
+  
+  <!-- Large Key Icon on Top -->
+  <g transform="translate(200, 120) scale(1) rotate(45)">
+    <!-- Key Handle -->
+    <path d="M-20,-30 L-20,-50 L-10,-60 L10,-60 L20,-50 L20,-30 L10,-20 L-10,-20 L-20,-30 Z" fill="#F1C40F" stroke="#E67E22" stroke-width="2" />
+    
+    <!-- Decorative Elements in Handle -->
+    <ellipse cx="0" cy="-40" rx="10" ry="7" fill="#2C3E50" />
+    <path d="M-8,-40 L8,-40 M0,-48 L0,-32" stroke="#2C3E50" stroke-width="2" />
+    
+    <!-- Key Shaft -->
+    <rect x="-10" y="-20" width="20" height="60" fill="#F1C40F" stroke="#E67E22" stroke-width="2" />
+    
+    <!-- Gothic Key Teeth -->
+    <path d="M-10,40 L-10,30 L-25,30 L-25,40 L-35,40 L-35,25 L-20,25 L-20,15 L-30,15 L-30,0 L-10,0" fill="#F1C40F" stroke="#E67E22" stroke-width="2" />
+    <path d="M10,40 L10,20 L20,20 L20,10 L10,10 L10,0" fill="#F1C40F" stroke="#E67E22" stroke-width="2" />
+  </g>
+  
+  <!-- SecChat Text - Larger -->
+  <text x="200" y="210" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-weight="bold" font-size="54" fill="#ECF0F1">SecChat</text>
+  
+  <!-- Large Lock at Bottom - 20% Smaller -->
+  <g transform="translate(200, 270) scale(1.2)">
+    <rect x="-25" y="-10" width="50" height="40" rx="6" fill="#F1C40F" />
+    <ellipse cx="0" cy="-20" rx="24" ry="15" stroke="#F1C40F" stroke-width="6" fill="none" />
+    <circle cx="0" cy="10" r="5" fill="#2C3E50" />
+    <rect x="-3" y="10" width="6" height="12" rx="3" fill="#2C3E50" />
+  </g>
+</svg>
