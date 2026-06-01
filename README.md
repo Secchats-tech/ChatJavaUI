@@ -1,6 +1,6 @@
 # ChatJavaUI
 
-Java Swing desktop client for the SecureChat protocol.
+This is a Java Swing desktop client built as a reference implementation for the SecureChat protocol.
 
 ## Requirements
 
